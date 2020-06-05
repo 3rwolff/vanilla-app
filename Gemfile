@@ -21,6 +21,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'redis', '~> 4.0'
 # make application reactive
 gem 'stimulus_reflex', '~> 3.2', '>= 3.2.1'
+# sidekiq
+gem 'sidekiq', '~> 6.0', '>= 6.0.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
