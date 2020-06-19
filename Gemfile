@@ -35,6 +35,11 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'guard', '~> 2.16', '>= 2.16.2'
+  gem 'guard-bundler', '~> 3.0'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-process', '~> 1.2', '>= 1.2.1'
+  gem 'guard-rails', '~> 0.8.1'
 end
 
 group :development do

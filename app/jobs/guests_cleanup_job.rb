@@ -2,7 +2,7 @@ class GuestsCleanupJob < ApplicationJob
 
   # "docker-compose up"
   # Note: you have to start/stop the redis server using "sudo service redis start"
-  queue_as :low_priority
+  queue_as :default
 
   def perform(*args)
     puts "########## HIT THE GuestsCleanupJob ###########"
